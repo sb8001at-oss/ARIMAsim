@@ -78,7 +78,7 @@ function(input, output, session) {
     })
     
     output$adf <- renderPrint({
-      adf.test(arima_ts)
+      ur.df(arima_ts)|> summary()
     })
     
     output$kpss <- renderPrint({

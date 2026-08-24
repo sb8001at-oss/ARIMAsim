@@ -5,7 +5,6 @@ library(dplyr)
 library(stringr)
 library(forecast)
 library(patchwork)
-library(tseries)
 library(urca)
 library(showtext)
 
